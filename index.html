@@ -6,41 +6,48 @@
     <title>Bearbee Mini App</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(180deg, #fff7ad 0%, #ffa200 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(180deg, #fff2a3 0%, #ff9900 100%);
             color: #333;
             text-align: center;
             padding: 20px;
             margin: 0;
             height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .card {
             background: white;
             padding: 30px;
-            border-radius: 25px;
-            box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
-            margin-top: 40px;
+            border-radius: 30px;
+            box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+            width: 80%;
+            max-width: 350px;
         }
-        h1 { color: #8B5A2B; font-size: 28px; }
+        h1 { color: #6d4c41; font-size: 26px; margin-bottom: 10px; }
+        p { font-size: 16px; color: #555; }
         .btn {
-            background-color: #8B5A2B;
+            background-color: #6d4c41;
             border: none;
             color: white;
-            padding: 15px 40px;
+            padding: 15px 35px;
             font-size: 18px;
             margin-top: 20px;
             cursor: pointer;
             border-radius: 50px;
             font-weight: bold;
+            width: 100%;
             box-shadow: 0 5px 10px rgba(0,0,0,0.2);
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>🐻 Bearbee Mini App 🐝</h1>
-        <p>Təbriklər! Bu sənin GitHub-da yayımlanan ilk Telegram oyunundur!</p>
-        <button class="btn" onclick="alert('Bal toplandı!')">🍯 Bal Topla</button>
+        <h1>🐻 Bearbee Oyun 🐝</h1>
+        <p>Uğurla alındı! Bu sənin Telegram-da açılan ilk rəsmi Mini App oyunundur!</p>
+        <button class="btn" onclick="alert('Bal balansınıza əlavə olundu!')">🍯 Bal Topla</button>
     </div>
 </body>
 </html>
